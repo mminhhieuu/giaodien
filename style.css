@@ -1,0 +1,125 @@
+.logo {
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    flex: 1;
+}
+.maunen {
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+.menu {
+    padding: 20px 100px;
+    display: flex; /* hiển thị menu theo hàng ngang*/   
+}
+.menu li {
+    padding: 0 12px; /* Khoảng cách giữa các mục trong menu */
+}
+.menu li a:hover {
+    color: rgb(255, 255, 255);
+}
+.timkiem {
+    display: flex;
+}
+.timkiem {
+    margin-right: 300px;
+    padding: 130px 10px;
+}
+.timkiem li {
+    padding: 0 10px;
+}
+.timkiem {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.anh1 {
+    padding: 0px 45px;
+}
+.anh {
+    padding: 0px 960px;
+    margin-top: -304px;
+}
+.anh2 img,
+.anh3 img {
+    width: 495px; /* Đặt chiều rộng của ảnh nhỏ */
+    height: 148px; /* Giữ tỷ lệ khung hình */
+}
+.flashsale {
+    background-color: rgb(251, 245, 245);
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.fontchu {
+    display: flex;
+    padding: 0px 5px ;
+}
+.flash {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: red;
+    padding: 0px 45px;
+}
+.sale {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: red;
+    padding: 0px 45px;
+}
+.flash, .sale {
+    padding: 0 3px; /* Khoảng cách giữa FLASH và SALE */
+}
+.khoangcachan { 
+    display: flex;   
+}
+.khoangcach {
+    display: flex;
+    justify-content: space-between; /* Đảm bảo các ảnh được căn cách đều nhau */
+    padding: 0px 45px;
+}
+
+.khoangcach div {
+    flex: 1; /* Mỗi div chứa 1 ảnh, sử dụng toàn bộ không gian có sẵn */
+    margin-right: 10px; /* Khoảng cách giữa các ảnh */
+}
+.sp1 {
+    padding: 0px 80px;
+}
+/*
+.sp2 {
+    padding: 0px 45px;
+}
+.sp3 {
+    padding: 0px 45px;
+}
+.sp4 {
+    padding: 0px 45px;
+}
+*/
+.giagoc {
+    text-decoration: line-through;
+    color: #000000;
+}
+.giamgia {
+    padding: 0px 90px;
+    margin-top: -35px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.bold_star {
+    color:rgb(220, 220, 28);
+}
+.star {
+    color: rgb(205, 205, 47)
+}
+.evaluate {
+    padding: 0px 81px;
+    margin-top: -34px;
+}
